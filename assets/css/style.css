@@ -448,6 +448,7 @@ input {
 
 /*===== Qualification Section =====*/
 .qualification__container {
+    display: flex;
     grid-template-columns: repeat(2,340px);
     column-gap: 3rem;
     justify-content: center;
