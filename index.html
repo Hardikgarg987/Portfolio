@@ -17,7 +17,7 @@
     <!--========== MAIN CSS ==========-->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Responsive portfolio website - Crypticalcoder</title>
+    <title>Responsive portfolio website - Hardik Garg</title>
 </head>
 
 <body>
@@ -46,19 +46,15 @@
                         <li class="nav__item">
                             <a href="#work" class="nav__link">Work</a>
                         </li>
-                        <li class="nav__item">
+                        <!-- <li class="nav__item">
                             <a href="#achievements" class="nav__link ">Achievements</a>
-                        </li>
+                        </li> -->
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="btn__share">
-                <i class="uil uil-share-alt social__share"></i>
-            </div>
-
             <div class="nav__close" id="nav-close">
                 <i class="uil uil-times"></i>
             </div>
@@ -125,7 +121,7 @@
             </h2>
 
             <div class="about__container container grid">
-                <img src="assets/img/about-img-3.png" alt="" class="about__img">
+                <img src="assets/img/profile.jpg" alt="" class="about__img">
 
                 <div class="about__data">
                     <h3 class="about__heading">Hi, I'm Hardik Garg</h3>
@@ -562,19 +558,19 @@
                     </div>
                 </div>
                 <div class="contact__content">
-                    <form action="" class="contact__form">
+                    <form action="https://formspree.io/f/xblykjeb" method="POST" class="contact__form">
                         <div class="input__container">
-                            <input type="text" class="input">
+                            <input type="text" class="input" name="username" required>
                             <label for="">Username</label>
                             <span>Username</span>
                         </div>
                         <div class="input__container">
-                            <input type="email" class="input">
+                            <input type="email" class="input" name="email" required>
                             <label for="">Email</label>
                             <span>Email</span>
                         </div>
                         <div class="input__container textarea">
-                            <textarea name="" id="" class="input"></textarea>
+                            <textarea class="input" name="message" required></textarea>
                             <label for="">Message</label>
                             <span>Message</span>
                         </div>
