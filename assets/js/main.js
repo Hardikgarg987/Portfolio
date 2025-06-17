@@ -84,11 +84,6 @@ function portfolioItemDetails(portfolioItem){
     
 }
 
-/*=============== SERVICES MODAL ===============*/
-
-
-/*=============== SWIPER TESTIMONIAL ===============*/
-
 
 /*=============== INPUT ANIMATION ===============*/
 const inputs = document.querySelectorAll(".input");
